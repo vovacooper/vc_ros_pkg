@@ -13,6 +13,17 @@ run catkin_make from
 ~/catkin_ws folder
 ```
 
+
+nginx configuration:
+-------------------
+nginx install:
+```Bash
+apt-get install nginx
+```
+configure
+```Bash
+/etc/nginx/sites-available
+```
 ```Bash
 server
 {
