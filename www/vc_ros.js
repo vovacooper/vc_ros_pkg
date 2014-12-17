@@ -1,23 +1,28 @@
-  function upFunction(e) {
+function upFunction(e) {
       document.getElementById("demo").innerHTML = e.id;
     
       var cmdVel = new ROSLIB.Topic({
         ros : ros,
+        name : 'cmd_vel_mux/input/teleop',
+        messageType : 'geometry_msgs/Twist'
+      });
+      var cmdVelSim = new ROSLIB.Topic({
+        ros : ros,
         name : '/turtle1/cmd_vel',
         messageType : 'geometry_msgs/Twist'
       });
-      
+
       var vert = 0;
       if(e.id == "Up"){
-          vert = 1;
+          vert = 0.2;
       }else if(e.id == "Down"){
-          vert = -1;
+          vert = -0.2;
       }
       var ang = 0;
       if(e.id == "Left"){
-          ang = 1;
+          ang = 0.5;
       }else if(e.id == "Right"){
-          ang = -1;
+          ang = -0.5;
       }
       var twist = new ROSLIB.Message({
         linear : {
@@ -32,6 +37,7 @@
         }
       });
 cmdVel.publish(twist);
+cmdVelSim.publish(twist);
   }
 
   document.onkeydown = function(event) {
@@ -41,25 +47,32 @@ cmdVel.publish(twist);
       document.getElementById('kc').innerHTML = key_code;
     var status = document.getElementById('status');
     status.innerHTML = "DOWN Event Fired For : "+key_press;
-     var cmdVel = new ROSLIB.Topic({
+
+
+      var cmdVel = new ROSLIB.Topic({
+        ros : ros,
+        name : 'cmd_vel_mux/input/teleop',
+        messageType : 'geometry_msgs/Twist'
+      });
+      var cmdVelSim = new ROSLIB.Topic({
         ros : ros,
         name : '/turtle1/cmd_vel',
         messageType : 'geometry_msgs/Twist'
       });
-      
-      var vert = 0;
+
+var vert = 0;
       if(key_code == 38){
-          vert = 1;
+          vert = 0.2;
       }else if(key_code == 40){
-          vert = -1;
+          vert = -0.2;
       }
       var ang = 0;
       if(key_code == 37){
-          ang = 1;
+          ang = 0.5;
       }else if(key_code == 39){
-          ang = -1;
+          ang = -0.5;
       }
-  var twist = new ROSLIB.Message({
+      var twist = new ROSLIB.Message({
         linear : {
           x : vert,
           y : 0,
@@ -71,7 +84,11 @@ cmdVel.publish(twist);
           z : ang
         }
       });
-      cmdVel.publish(twist);
+cmdVel.publish(twist);
+cmdVelSim.publish(twist);
+
+
+
   }
 
   var ros = new ROSLIB.Ros({
@@ -88,5 +105,6 @@ cmdVel.publish(twist);
   ros.on('close', function() {
     console.log('Connection to websocket server closed.');
   });
+
 
 
