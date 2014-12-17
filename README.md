@@ -4,17 +4,21 @@ vc_ros_pkg
 ROS package
 
 
+```python
+s = "Python syntax highlighting"
+print s
+```
 
 place the package under 
-'''javascript
+```javascript
 ~/catkin_ws/src path
-'''
+```
 run catkin_make from 
-'''javascript
+```javascript
 ~/catkin_ws folder
-'''
+```
 
-'''javascript
+```javascript
 server
 {
     listen       80 default_server;
@@ -24,6 +28,6 @@ server
     {
     }
 }
-'''
+```
 
 
