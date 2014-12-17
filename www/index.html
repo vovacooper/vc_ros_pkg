@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" src="eventemitter2.min.js"></script>
+  <script type="text/javascript" src="roslib.min.js"></script>
+
+  <style>
+    * {
+      outline: none;
+    }
+    html, body {
+
+    }
+
+    html {
+        display: table;
+        margin: auto;
+    }
+
+    body {
+
+        background: #333; 
+        display: table-cell;
+        vertical-align: middle;
+    }
+    
+    table {
+       width: 100%;
+    }
+    th,td {
+      
+       text-align: center;
+    }
+    .button {
+       width:90px;
+       padding: 10px 20px 10px 20px;
+       border-radius: 5px;
+       font-size: 100%;
+       background: linear-gradient(#464646,#2a2a2a);
+       position: relative;
+       box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.4), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+       font-family: helvetica neue light, helvetica neue, helvetica, sans-serif;
+       color: rgba(255, 255, 255, 0.5);
+       font-weight: 400;
+       text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
+       border: 0px;
+       top: 0%;
+       left: 0%;
+       margin-left: 0px;
+       margin-top: 0px;
+    }
+
+    .button:hover {
+       cursor: pointer;
+       background: linear-gradient(#4a4a4a,#2e2e2e);
+    }
+
+    .button:active {
+       background: rgba(0, 0, 0, 0.2); 
+       box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.6), 0px 1px 0px rgba(255, 255, 255, 0.1);
+    }
+    @media only screen and (max-device-width: 480px) {
+     /* define mobile specific styles come here */
+
+    }
+  </style>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
+<body>
+ 
+<table class="table" style="width:20%;height50%">
+  <tr>
+    <td> </td>
+    <td><button id="Up" class="button" onclick="upFunction(this)">Up </button></td> 
+    <td> </td>
+  </tr>
+  <tr>
+    <td><button id="Left" class="button" onclick="upFunction(this)">Left</button></td>
+    <td><button id="Down" class="button" onclick="upFunction(this)">Down</button></td> 
+    <td><button id="Right" class="button" onclick="upFunction(this)">Right</button></td>
+  </tr>
+</table>
+
+  <p id="demo"></p>
+  <p id="kp"></p>
+  <p id="kc"></p>
+  <p id="status"></p>
+
+  <script type="text/javascript" type="text/javascript">
+    function upFunction(e) {
+      document.getElementById("demo").innerHTML = e.id;
+    
+      var cmdVel = new ROSLIB.Topic({
+        ros : ros,
+        name : '/turtle1/cmd_vel',
+        messageType : 'geometry_msgs/Twist'
+      });
+      
+      var vert = 0;
+      if(e.id == "Up"){
+          vert = 1;
+      }else if(e.id == "Down"){
+          vert = -1;
+      }
+      var ang = 0;
+      if(e.id == "Left"){
+          ang = 1;
+      }else if(e.id == "Right"){
+          ang = -1;
+      }
+      var twist = new ROSLIB.Message({
+        linear : {
+          x : vert,
+          y : 0,
+          z : 0
+        },
+        angular : {
+          x : 0,
+          y : 0,
+          z : ang
+        }
+      });
+      cmdVel.publish(twist);
+  }
+
+  document.onkeydown = function(event) {
+    var key_press = String.fromCharCode(event.keyCode);
+    var key_code = event.keyCode;
+    document.getElementById('kp').innerHTML = key_press;
+      document.getElementById('kc').innerHTML = key_code;
+    var status = document.getElementById('status');
+    status.innerHTML = "DOWN Event Fired For : "+key_press;
+     var cmdVel = new ROSLIB.Topic({
+        ros : ros,
+        name : '/turtle1/cmd_vel',
+        messageType : 'geometry_msgs/Twist'
+      });
+      
+      var vert = 0;
+      if(key_code == 38){
+          vert = 1;
+      }else if(key_code == 40){
+          vert = -1;
+      }
+      var ang = 0;
+      if(key_code == 37){
+          ang = 1;
+      }else if(key_code == 39){
+          ang = -1;
+      }
+      var twist = new ROSLIB.Message({
+        linear : {
+          x : vert,
+          y : 0,
+          z : 0
+        },
+        angular : {
+          x : 0,
+          y : 0,
+          z : ang
+        }
+      });
+      cmdVel.publish(twist);
+  }
+
+  var ros = new ROSLIB.Ros({
+    url : 'ws://' + document.location.host + ':9090'
+  });
+
+  ros.on('connection', function() {
+    console.log('Connected to websocket server.');
+  });
+
+  ros.on('error', function(error) {
+    console.log('Error connecting to websocket server: ', error);
+  });
+
+  ros.on('close', function() {
+    console.log('Connection to websocket server closed.');
+  });
+  </script>
+</body>
+</html>
