@@ -1,49 +1,67 @@
 <!DOCTYPE html>
 <html>
-<head>
- 
-  <--- JQUERY --->
-  <script src="jquery/jquery-1.11.1.min.js"></script>
+  <head>
+   
+    <!--  JQUERY -->
+    <script src="jquery/jquery-1.11.1.min.js"></script>
 
- 
-  <--- JOYSTICK --->
-  <script src="joystick/virtualjoystick.js"></script>
-  
-  <--- ROS --->
-  <script type="text/javascript" src="ros/eventemitter2.min.js"></script>
-  <script type="text/javascript" src="ros/roslib.min.js"></script>
-  <script type="text/javascript" src="vc_ros.js"></script>
- 
+   
+    <!--  JOYSTICK -->
+    <script src="joystick/virtualjoystick.js"></script>
 
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
+    <!--  ROS -->
+    <script type="text/javascript" src="ros/eventemitter2.min.js"></script>
+    <script type="text/javascript" src="ros/roslib.min.js"></script>
+    <script type="text/javascript" src="vc_ros.js"></script>
+   
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
-<body>
- 
-<table class="table" style="width:20%;height50%">
-  <tr>
-    <td> </td>
-    <td><button id="Up" class="button" onclick="upFunction(this)">Up </button></td> 
-    <td> </td>
-  </tr>
-  <tr>
-    <td><button id="Left" class="button" onclick="upFunction(this)">Left</button></td>
-    <td><button id="Down" class="button" onclick="upFunction(this)">Down</button></td> 
-    <td><button id="Right" class="button" onclick="upFunction(this)">Right</button></td>
-  </tr>
-</table>
+  <body>
+   
+    <table class="table" style="width:20%;height50%">
+      <tr>
+        <td> </td>
+        <td><button id="Up" class="button" onclick="moveTurtleButtonUp(this)">Up </button></td> 
+        <td> </td>
+      </tr>
+      <tr>
+        <td><button id="Left" class="button" onclick="moveTurtleButtonUp(this)">Left</button></td>
+        <td><button id="Down" class="button" onclick="moveTurtleButtonUp(this)">Down</button></td> 
+        <td><button id="Right" class="button" onclick="moveTurtleButtonUp(this)">Right</button></td>
+      </tr>
+    </table>
 
-  <p id="demo"></p>
-  <p id="kp"></p>
-  <p id="kc"></p>
-  <p id="status"></p>
-  
-  <div id="container"></div>
-  <span id="result"></span>
+    <div id="joystickcontainer"></div>
 
- <script>
- 
-    </script>
 
-</body>
+    <!--  SPEACH TEST -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/1.4.0/annyang.min.js"></script>
+    <script>
+    console.log("script");
+    if (annyang) {
+      console.log("annyang = true");
+      // Let's define our first command. First the text we expect, and then the function it should call
+      var commands = {
+        'Hello': function() {
+          console.log("Hello");
+          $('#status').text("Hello!!!!!!!");
+        },
+        'bye': function() {
+          console.log("bye");
+          $('#status').text("bye!!!!!!!");
+        }
+      };
+
+      // Add our commands to annyang
+      annyang.addCommands(commands);
+
+      // Start listening. You can call this here, or attach this call to an event, button, etc.
+      //annyang.start();
+    }
+    </script><!--  SPEACH TEST -->
+
+
+  </body>
 </html>
