@@ -1,3 +1,40 @@
+/////////////////////////////
+//JoyStick
+/////////////////////////////
+$(document).ready(function() {
+  x=$("p").position();
+  //alert("Top: " + x.top + " Left: " + x.left);
+
+  console.log("touchscreen is", VirtualJoystick.touchScreenAvailable() ? "available" : "not available");
+
+  var joystick  = new VirtualJoystick({
+    container : document.getElementById('container'),
+    mouseSupport  : true,
+    container_pos : { x: x.left , y: x.top},
+    limitStickTravel: true,
+  });
+  joystick.addEventListener('touchStart', function(){
+    console.log('down')
+  })
+  joystick.addEventListener('touchEnd', function(){
+    console.log('up')
+  })
+  setInterval(function(){
+    var outputEl  = document.getElementById('result');
+    outputEl.innerHTML  = '<b>Result:</b> '
+      + ' dx:' + joystick.deltaX()
+      + ' dy:' + joystick.deltaY()
+      + (joystick.right() ? ' right'  : '')
+      + (joystick.up()    ? ' up'   : '')
+      + (joystick.left()  ? ' left' : '')
+      + (joystick.down()  ? ' down'   : '') 
+  }, 1/30 * 1000);
+});
+
+
+/////////////////////////////
+//Buttons
+/////////////////////////////
 function upFunction(e) {
       document.getElementById("demo").innerHTML = e.id;
     
