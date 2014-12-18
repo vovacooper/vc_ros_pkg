@@ -55,10 +55,14 @@ $(document).ready(function() {
     console.log('up')
   })
   setInterval(function(){
-    var twist = generateTwistMsg(joystick.deltaY()/100 , joystick.deltaX()/100);
+    var dx = joystick.deltaX();
+    var dy = joystick.deltaY();
+    if( Math.abs(dx) < 2 && Math.abs(dy) < 2  ){
+      return;
+    }
+    var twist = generateTwistMsg(dy/100 , dx/100);
     tpkVel.publish(twist);
     tpkVelSim.publish(twist);
-
     //var outputEl  = document.getElementById('result');
     //outputEl.innerHTML  = '<b>Result:</b> '
     //  + ' dx:' + joystick.deltaX()
