@@ -6,19 +6,25 @@ var tpkVel;
 var tpkVelSim;
 
 $(document).ready(function() {
-  ros = new ROSLIB.Ros({
-    url : 'ws://' + document.location.host + ':9090'
-  });
-  ros.on('connection', function() {
-    console.log('Connected to websocket server.');
-  });
-  ros.on('error', function(error) {
-    console.log('Error connecting to websocket server: ', error);
-  });
-  ros.on('close', function() {
-    console.log('Connection to websocket server closed.');
-  });
+   console.log("111111111111");
 
+  try {
+    ros = new ROSLIB.Ros({
+      url : 'ws://' + document.location.host + ':9090'
+    });
+    ros.on('connection', function() {
+      console.log('Connected to websocket server.');
+    });
+    ros.on('error', function(error) {
+      console.log('Error connecting to websocket server: ', error);
+    });
+    ros.on('close', function() {
+      console.log('Connection to websocket server closed.');
+    });
+  }
+  catch(err) {
+      console.log('Error connecting to ROS: ', err);
+  }
   tpkVel = new ROSLIB.Topic({
     ros : ros,
     name : 'cmd_vel_mux/input/teleop',
@@ -36,10 +42,10 @@ $(document).ready(function() {
 /////////////////////////////
 //JoyStick
 /////////////////////////////
-$(document).ready(function() {
+$( window ).load(function() {
+  console.log("222222222222222222222");
   x=$("#joystickcontainer").position();
-  //alert("Top: " + x.top + " Left: " + x.left);
-
+  
   console.log("touchscreen is", VirtualJoystick.touchScreenAvailable() ? "available" : "not available");
 
   var joystick  = new VirtualJoystick({

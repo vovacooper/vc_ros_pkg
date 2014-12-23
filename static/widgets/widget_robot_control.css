@@ -1,0 +1,75 @@
+* {
+      outline: none;
+    }
+    html {
+        display: table;
+        margin: auto;
+    }
+
+    body {
+
+        background: #333; 
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .button {
+       width:90px;
+       padding: 10px 20px 10px 20px;
+       border-radius: 5px;
+       font-size: 100%;
+       background: linear-gradient(#464646,#2a2a2a);
+       position: relative;
+       box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.4), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+       font-family: helvetica neue light, helvetica neue, helvetica, sans-serif;
+       color: rgba(255, 255, 255, 0.5);
+       font-weight: 400;
+       text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
+       border: 0px;
+       top: 0%;
+       left: 0%;
+       margin-left: 0px;
+       margin-top: 0px;
+    }
+    .button:hover {
+       cursor: pointer;
+       background: linear-gradient(#4a4a4a,#2e2e2e);
+    }
+    .button:active {
+       background: rgba(0, 0, 0, 0.2); 
+       box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.6), 0px 1px 0px rgba(255, 255, 255, 0.1);
+    }
+
+    body {
+      overflow  : hidden;
+      padding   : 0;
+      margin    : 0;
+      
+    }
+    #info {
+      position  : absolute;
+      top   : 0px;
+      width   : 100%;
+      padding   : 5px;
+      text-align  : center;
+    }
+    #info a {
+      color   : #66F;
+      text-decoration : none;
+    }
+    #info a:hover {
+      text-decoration : underline;
+    }
+    #joystickcontainer {
+      width   : 200px;
+      height    : 200px;
+     
+      padding   : 0;
+      margin    : 0;
+      -webkit-user-select : none;
+      -moz-user-select  : none;
+    }
+    @media only screen and (max-device-width: 480px) {
+     /* define mobile specific styles come here */
+
+    }
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--  JQUERY -->
+    <script type="text/javascript"  src="{{url_for('static', filename='misc/jquery/jquery-1.11.1.min.js') }}"></script>
+
+    <!--  ROS -->
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='misc/gridster/ducksboard-gridster.js-3140374/dist/jquery.gridster.css') }}">
+    <script src="{{url_for('static', filename='misc/gridster/ducksboard-gridster.js-3140374/dist/jquery.gridster.min.js') }}" type="text/javascript" charset="utf-8"></script>
+
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style1.css') }}">
+  </head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
+  <body>
+   
+    <div class="controls">
+        <button class="js-seralize">Serialize</button>
+        <button class="js-deseralize">Build from serialize</button>
+        <textarea id="log"></textarea>
+    </div>
+    <div class="gridster" >
+        <ul></ul>
+    </div>
+
+    <script type="text/javascript" id="code">
+    var gridster;
+
+    $(function(){
+      gridster = $(".gridster > ul").gridster({
+          widget_margins: [5 , 5],
+          widget_base_dimensions: [50  , 50],
+          serialize_params: function($w, wgd) {
+            return {
+              data: $($w).html(),
+              col: wgd.col, 
+              row: wgd.row,
+              size_x: wgd.size_x,
+              size_y: wgd.size_y,
+            };
+          }
+      }).data('gridster');
+
+      var wid = '<li><object type="text/html" data="/ros/img"></object></li>';
+      var wid2 = '<li><iframe src="/ros/keypad" style="border-style: none;width: 90%; height: 90% ;"></iframe></li>';
+      var wid1 = '<li><iframe src="/ros/joystick" style="border-style: none;width: 90%; height: 90% ;"></iframe></li>';
+      var wid3 = '<li><iframe src="/ros/log" style="border-style: none;width: 90%; height: 90% ;"></iframe></li>';
+
+      var widgets = [
+          [wid2, 6, 2],
+          [wid1, 4, 4],
+          [wid, 2, 2],
+          ['<li>face</li>', 2, 2],
+          [wid3, 6, 4],         
+      ];
+
+      $.each(widgets, function(i, widget){
+          gridster.add_widget.apply(gridster, widget)
+      });
+
+
+
+      $('.js-seralize').on('click', function() {
+        var s = gridster.serialize();
+
+        $('#log').val(JSON.stringify(s));
+      })
+
+      $('.js-deseralize').on('click', function() {
+        // sort serialization
+        var serialization = eval('(' + $('#log').val() + ')');
+        serialization = Gridster.sort_by_row_and_col_asc(serialization);
+
+        gridster.remove_all_widgets();
+        $.each(serialization, function() {
+            gridster.add_widget('<li>' + this.data + '</li>', this.size_x, this.size_y, this.col, this.row);
+        });
+      });
+    });
+    </script>
+   
+  </body>
+</html>

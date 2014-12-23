@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   
+    <!--  JQUERY -->
+    <script type="text/javascript"  src="../jquery/jquery-1.11.1.min.js"></script>
+   
+    <!--  ROS -->
+    <script type="text/javascript" src="../ros/eventemitter2.min.js"></script>
+    <script type="text/javascript" src="../ros/roslib.min.js"></script>
+    <script type="text/javascript" src="widget_robot_control.js"></script>
+   
+    <script type="text/javascript" src="../misc/List.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="widget_log.css">
+  </head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
+  <body>
+   <div id="users">
+    <input class="search" placeholder="Search" />
+   
+  
+    <ul class="list">
+   
+     
+    </ul>
+  
+  </div>
+  <script type="text/javascript">
+    var options = {
+      valueNames: [ 'name', 'born' ],
+      item: '<li><h3 class="name"></h3><p class="born"></p></li>'
+    };
+
+    var values = [{
+        name: 'Jonny',
+        born: 1986
+      },
+      {
+        name: 'Jonas Arnklint',
+        born: 1985
+      },
+      {
+        name: 'Martina Elm',
+        born: 1986
+    }];
+
+    var userList = new List('users', options, values);
+
+    userList.add({
+      name: "Gustaf Lindqvist",
+      born: 1983
+    });
+  </script>
+
+  </body>
+</html>
