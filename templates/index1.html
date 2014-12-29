@@ -1,30 +1,73 @@
 <!DOCTYPE html>
 <html>
   <head>
+
     <!--  JQUERY -->
-    <script type="text/javascript"  src="{{url_for('static', filename='misc/jquery/jquery-1.11.1.min.js') }}"></script>
+    <script type="text/javascript"  src="{{url_for('static', filename='misc/jquery/jquery-2.1.3.min.js') }}"></script>
+
+      <!--  SEMANTIC -->
+      <script type="text/javascript"  src="{{url_for('static', filename='misc/Semantic-UI-1.4.1/dist/semantic.js') }}"></script>
+      <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='misc/Semantic-UI-1.4.1/dist/semantic.css') }}">
 
     <!--  ROS -->
     <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='misc/gridster/ducksboard-gridster.js-3140374/dist/jquery.gridster.css') }}">
     <script src="{{url_for('static', filename='misc/gridster/ducksboard-gridster.js-3140374/dist/jquery.gridster.min.js') }}" type="text/javascript" charset="utf-8"></script>
 
+      <!--  CSS -->
     <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style1.css') }}">
   </head>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
+
+
   <body>
-   
-    <div class="controls">
-        <button class="js-seralize">Serialize</button>
-        <button class="js-deseralize">Build from serialize</button>
-        <textarea id="log"></textarea>
+   <div class="ui menu">
+  <div class="menu">
+    <a class="item">
+      Home
+    </a>
+    <div class="ui pointing dropdown link item">
+      <i class="dropdown icon"></i>
+      <span class="text selected_user">Default</span>
+      <div class="menu user_dropdown">
+        <!--
+        <div class="header">Categories</div>
+        <div class="item">Home Goods</div>
+        <div class="item">Bedroom</div>
+        -->
+      </div>
     </div>
+    <a class="item js-seralize">
+      serialize
+    </a>
+    <a class="item js-deseralize">
+      Deserialize
+    </a>
+  </div>
+</div>
+
+
     <div class="gridster" >
         <ul></ul>
     </div>
 
-    <script type="text/javascript" id="code">
-    var gridster;
 
+    <script type="text/javascript" id="code">
+        $('.ui.dropdown').dropdown({
+            transition: 'drop'
+        });
+
+        $.get( "ros/get_saved_names", function( data ) {
+            user_list = eval(data)
+            $( ".selected_user" ).text( user_list[0] );
+
+            for (var i = 0; i < user_list.length; i++) {
+
+                $( ".user_dropdown").append('<div class="item">' + user_list[i] + '</div>')
+
+            }
+        });
+
+    var gridster;
     $(function(){
       gridster = $(".gridster > ul").gridster({
           widget_margins: [5 , 5],
@@ -40,40 +83,52 @@
           }
       }).data('gridster');
 
-      var wid = '<li><object type="text/html" data="/ros/img"></object></li>';
-      var wid2 = '<li><iframe src="/ros/keypad" style="border-style: none;width: 90%; height: 90% ;"></iframe></li>';
-      var wid1 = '<li><iframe src="/ros/joystick" style="border-style: none;width: 90%; height: 90% ;"></iframe></li>';
-      var wid3 = '<li><iframe src="/ros/log" style="border-style: none;width: 90%; height: 90% ;"></iframe></li>';
+/*
+      var wid2 = '<li><iframe src="/ros?widget=keypad" style="border-style: none;width: 90%; height: 90% ;"></iframe></li>';
+      var wid1 = '<li><iframe src="/ros?widget=joystick" style="border-style: none;width: 90%; height: 90% ;"></iframe></li>';
+      var wid3 = '<li><iframe src="/ros?widget=log" style="border-style: none;width: 90%; height: 90% ;"></iframe></li>';
 
       var widgets = [
           [wid2, 6, 2],
           [wid1, 4, 4],
-          [wid, 2, 2],
+          ['<li>face</li>', 2, 2],
           ['<li>face</li>', 2, 2],
           [wid3, 6, 4],         
       ];
-
       $.each(widgets, function(i, widget){
           gridster.add_widget.apply(gridster, widget)
       });
-
-
-
+*/
       $('.js-seralize').on('click', function() {
         var s = gridster.serialize();
 
-        $('#log').val(JSON.stringify(s));
-      })
-
+          $.post( "ros/save_serialization", {
+                user:  $( ".selected_user" ).text(),
+                serialization: JSON.stringify(s)
+            })
+            .done(function( data ) {
+                alert( "Data Loaded: " + data );
+            });
+      });
       $('.js-deseralize').on('click', function() {
-        // sort serialization
-        var serialization = eval('(' + $('#log').val() + ')');
-        serialization = Gridster.sort_by_row_and_col_asc(serialization);
+          var serialization;
+        $.getJSON( "ros/get_saved_serialization", { user:  $( ".selected_user" ).text() } )
+        .done(function( json ) {
+            serialization = eval('(' + json + ')');
+            serialization = Gridster.sort_by_row_and_col_asc(serialization);
+            console.log( "JSON Data: " +serialization );
 
-        gridster.remove_all_widgets();
-        $.each(serialization, function() {
-            gridster.add_widget('<li>' + this.data + '</li>', this.size_x, this.size_y, this.col, this.row);
+            gridster.remove_all_widgets();
+            $.each(serialization, function() {
+                gridster.add_widget('<li>' + this.data + '</li>', this.size_x, this.size_y, this.col, this.row);
+            });
+        })
+        .fail(function( jqxhr, textStatus, error ) {
+            var err = textStatus + ", " + error;
+            console.log( "Request Failed: " + err );
         });
+
+
       });
     });
     </script>

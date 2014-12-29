@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--  JQUERY -->
+    <script type="text/javascript"  src="{{url_for('static', filename='misc/jquery/jquery-1.11.1.min.js') }}"></script>
+
+    <!--  ROS -->
+    <script type="text/javascript" src="{{url_for('static', filename='misc/ros/eventemitter2.min.js') }}"></script>
+    <script type="text/javascript" src="{{url_for('static', filename='misc/ros/roslib.min.js') }}"></script>
+   
+    <!--  MY -->
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='widgets/widget_ros_keypad.css') }}">
+  </head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
+  <body>
+   
+    <table class="table" style="width:20%;height:50%;">
+      <tr>
+        <td> </td>
+        <td><button id="Up" class="button" onclick="moveTurtleButtonUp(this)">Up </button></td> 
+        <td> </td>
+      </tr>
+      <tr>
+        <td><button id="Left" class="button" onclick="moveTurtleButtonUp(this)">Left</button></td>
+        <td><button id="Down" class="button" onclick="moveTurtleButtonUp(this)">Down</button></td> 
+        <td><button id="Right" class="button" onclick="moveTurtleButtonUp(this)">Right</button></td>
+      </tr>
+    </table>
+
+  <script type="text/javascript" id="code">
+    /////////////////////////////
+    //init
+    /////////////////////////////
+    var ros;
+    var tpkVel;
+    var tpkVelSim;
+
+    $(document).ready(function() {
+
+      try {
+        ros = new ROSLIB.Ros({
+          url : 'ws://' + {{ data.ros_host_ip }} + ':' + '{{ data.ros_host_port }}'
+        });
+        ros.on('connection', function() {
+          console.log('Connected to websocket server.');
+        });
+        ros.on('error', function(error) {
+          console.log('Error connecting to websocket server: ', error);
+        });
+        ros.on('close', function() {
+          console.log('Connection to websocket server closed.');
+        });
+      }
+      catch(err) {
+          console.log('Error connecting to ROS: ', err);
+      }
+      tpkVel = new ROSLIB.Topic({
+        ros : ros,
+        name : 'cmd_vel_mux/input/teleop',
+        messageType : 'geometry_msgs/Twist'
+      });
+      tpkVelSim = new ROSLIB.Topic({
+        ros : ros,
+        name : '/turtle1/cmd_vel',
+        messageType : 'geometry_msgs/Twist'
+      });
+
+    });
+
+
+    /////////////////////////////
+    //Buttons
+    /////////////////////////////
+    function generateTwistMsg(x,y){
+      var twist = new ROSLIB.Message({
+        linear : {
+          x : x,
+          y : 0,
+          z : 0
+        },
+        angular : {
+          x : 0,
+          y : 0,
+          z : y
+        }
+      });
+      return twist;
+    }
+
+    function moveTurtleButtonUp(e) {
+      //document.getElementById("demo").innerHTML = e.id;
+      var vert = 0;
+      if(e.id == "Up"){
+        vert = 0.2;
+      }else if(e.id == "Down"){
+        vert = -0.2;
+      }
+      var ang = 0;
+      if(e.id == "Left"){
+        ang = 0.5;
+      }else if(e.id == "Right"){
+        ang = -0.5;
+      }
+      var twist = generateTwistMsg(vert , ang);
+      tpkVel.publish(twist);
+      tpkVelSim.publish(twist);
+    }
+    /////////////////////////////
+    //KeyBoard
+    /////////////////////////////
+    document.onkeydown = function(event) {
+      //var key_press = String.fromCharCode(event.keyCode);
+      var key_code = event.keyCode;
+      //document.getElementById('kp').innerHTML = key_press;
+      //document.getElementById('kc').innerHTML = key_code;
+      //var status = document.getElementById('status');
+      //status.innerHTML = "DOWN Event Fired For : "+key_press;
+      var vert = 0;
+      if(key_code == 38){
+        vert = 0.2;
+      }else if(key_code == 40){
+        vert = -0.2;
+      }
+      var ang = 0;
+      if(key_code == 37){
+        ang = 0.5;
+      }else if(key_code == 39){
+        ang = -0.5;
+      }
+      var twist = generateTwistMsg(vert , ang);
+      tpkVel.publish(twist);
+      tpkVelSim.publish(twist);
+    }
+  </script>
+  </body>
+</html>

@@ -2,22 +2,606 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e91b9b2-40ad-4565-a131-b7837f4d7244" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vc_ros_pkg.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/widget_test.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/joystick/virtualjoystick.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/jquery/jquery-1.11.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/ros/eventemitter2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/ros/roslib.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/vc_ros.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/examples/images/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/bootstrap3/elements/button.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/round/elements/button.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/examples/images/cat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/examples/images/wireframe/centered-paragraph.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/themes/default/assets/images/flags.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/assets/images/flags.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/themes/basic/assets/fonts/icons.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/themes/default/assets/fonts/icons.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/basic/assets/fonts/icons.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/assets/fonts/icons.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/themes/default/assets/fonts/icons.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/assets/fonts/icons.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/themes/basic/assets/fonts/icons.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/themes/default/assets/fonts/icons.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/basic/assets/fonts/icons.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/assets/fonts/icons.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/themes/basic/assets/fonts/icons.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/themes/default/assets/fonts/icons.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/basic/assets/fonts/icons.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/assets/fonts/icons.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/examples/images/wireframe/image-square.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/examples/images/wireframe/image-text.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/examples/images/wireframe/image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/examples/images/wireframe/media-paragraph-alt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/examples/images/wireframe/media-paragraph.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/gmail/collections/message.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/examples/images/wireframe/paragraph.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/examples/images/wireframe/short-paragraph.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/material/globals/site.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/examples/images/wireframe/square-image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/examples/images/wireframe/text-image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/modules/video.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/examples/images/wireframe/white-image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/.csscomb.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/.csslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/GETTING-STARTED.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/tasks/admin/templates/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/RELEASE-NOTES.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/accordion.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/test/fixtures/accordion.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/accordion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/modules/accordion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/modules/accordion.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/accordion.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/accordion.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/modules/accordion.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/chubby/modules/accordion.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/modules/accordion.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/test/modules/accordion.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/modules/accordion.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/chubby/modules/accordion.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/modules/accordion.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/ad.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/views/ad.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/ad.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/views/ad.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/views/ad.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/views/ad.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/views/ad.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/behaviors/api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/api.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/tasks/banner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/tasks/admin/templates/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/breadcrumb.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/collections/breadcrumb.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/breadcrumb.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/collections/breadcrumb.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/collections/breadcrumb.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/collections/breadcrumb.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/collections/breadcrumb.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/button.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/elements/button.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/button.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/elements/button.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/amazon/elements/button.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/basic/elements/button.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/chubby/elements/button.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/classic/elements/button.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/elements/button.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/github/elements/button.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/material/elements/button.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/raised/elements/button.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/twitter/elements/button.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/elements/button.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/amazon/elements/button.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/basic/elements/button.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/bootstrap3/elements/button.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/chubby/elements/button.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/classic/elements/button.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/elements/button.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/github/elements/button.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/material/elements/button.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/raised/elements/button.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/round/elements/button.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/twitter/elements/button.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/card.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/views/card.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/card.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/views/card.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/basic/views/card.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/classic/views/card.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/views/card.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/views/card.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/basic/views/card.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/classic/views/card.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/views/card.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/modules/chatroom.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/modules/chatroom.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/modules/chatroom.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/modules/chatroom.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/checkbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/test/fixtures/checkbox.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/checkbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/modules/checkbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/modules/checkbox.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/checkbox.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/checkbox.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/modules/checkbox.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/modules/checkbox.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/test/modules/checkbox.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/modules/checkbox.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/modules/checkbox.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/colorize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/behaviors/colorize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/colorize.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/comment.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/views/comment.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/comment.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/views/comment.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/chubby/views/comment.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/views/comment.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/views/comment.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/chubby/views/comment.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/views/comment.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/tasks/comments.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/tasks/admin/templates/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/tasks/defaults.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/dimmer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/dimmer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/modules/dimmer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/modules/dimmer.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/dimmer.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/dimmer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/modules/dimmer.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/modules/dimmer.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/modules/dimmer.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/modules/dimmer.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/divider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/elements/divider.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/divider.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/elements/divider.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/elements/divider.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/elements/divider.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/elements/divider.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/tasks/admin/docs.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/dropdown.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/test/fixtures/dropdown.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/modules/dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/modules/dropdown.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/dropdown.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/dropdown.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/modules/dropdown.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/modules/dropdown.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/test/modules/dropdown.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/modules/dropdown.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/modules/dropdown.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/feed.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/examples/feed.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/examples/feed.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/examples/feed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/views/feed.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/feed.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/views/feed.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/views/feed.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/timeline/views/feed.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/views/feed.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/views/feed.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/timeline/views/feed.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/flag.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/elements/flag.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/flag.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/elements/flag.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/elements/flag.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/elements/flag.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/elements/flag.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/form.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/behaviors/form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/collections/form.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/form.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/form.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/collections/form.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/chubby/collections/form.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/collections/form.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/flat/collections/form.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/github/collections/form.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/collections/form.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/chubby/collections/form.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/collections/form.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/flat/collections/form.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/github/collections/form.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/grid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/examples/grid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/examples/grid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/collections/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/grid.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/collections/grid.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/collections/grid.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/fixed-width/collections/grid.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/collections/grid.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/collections/grid.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/fixed-width/collections/grid.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/tasks/gulp-settings.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/header.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/elements/header.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/header.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/elements/header.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/bookish/elements/header.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/chubby/elements/header.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/classic/elements/header.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/elements/header.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/material/elements/header.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/elements/header.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/bookish/elements/header.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/chubby/elements/header.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/classic/elements/header.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/elements/header.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/material/elements/header.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/examples/homepage.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/examples/homepage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/examples/homepage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/icon.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/elements/icon.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/icon.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/elements/icon.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/basic/elements/icon.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/elements/icon.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/elements/icon.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/basic/elements/icon.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/elements/icon.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/themes/basic/assets/fonts/icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/themes/default/assets/fonts/icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/basic/assets/fonts/icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/assets/fonts/icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/image.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/elements/image.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/image.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/elements/image.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/elements/image.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/elements/image.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/elements/image.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/input.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/elements/input.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/input.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/elements/input.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/elements/input.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/elements/input.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/elements/input.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/item.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/views/item.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/item.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/views/item.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/views/item.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/views/item.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/views/item.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/test/helpers/jasmine-clog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/test/helpers/jasmine-jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/test/helpers/jasmine-sinon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/jquery/jquery-2.1.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/test/helpers/jquery-events.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/karma.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/examples/kitchensink.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/examples/kitchensink.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/label.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/elements/label.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/label.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/elements/label.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/elements/label.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/elements/label.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/elements/label.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/list.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/elements/list.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/list.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/elements/list.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/elements/list.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/elements/list.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/elements/list.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/loader.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/elements/loader.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/loader.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/elements/loader.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/elements/loader.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/duo/elements/loader.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/pulsar/elements/loader.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/elements/loader.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/elements/loader.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/duo/elements/loader.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/pulsar/elements/loader.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/db/localDB.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/localDB.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/tasks/log.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/menu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/collections/menu.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/menu.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/collections/menu.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/collections/menu.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/github/collections/menu.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/collections/menu.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/collections/menu.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/github/collections/menu.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/message.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/collections/message.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/message.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/collections/message.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/collections/message.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/github/collections/message.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/collections/message.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/collections/message.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/github/collections/message.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/gmail/collections/message.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/modal.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/test/fixtures/modal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/modules/modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/modules/modal.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/modal.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/modal.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/modules/modal.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/modules/modal.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/fixed-width/modules/modal.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/material/modules/modal.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/test/modules/modal.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/modules/modal.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/modules/modal.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/fixed-width/modules/modal.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/material/modules/modal.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/test/modules/module.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/nag.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/nag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/modules/nag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/modules/nag.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/nag.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/nag.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/modules/nag.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/modules/nag.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/modules/nag.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/modules/nag.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/tasks/admin/oauth.example.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/tasks/admin/templates/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/popup.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/test/fixtures/popup.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/popup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/modules/popup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/modules/popup.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/popup.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/popup.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/modules/popup.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/modules/popup.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/test/modules/popup.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/modules/popup.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/modules/popup.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/progress.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/progress.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/modules/progress.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/modules/progress.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/progress.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/progress.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/modules/progress.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/basic/modules/progress.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/classic/modules/progress.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/modules/progress.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/striped/modules/progress.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/modules/progress.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/basic/modules/progress.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/classic/modules/progress.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/modules/progress.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/striped/modules/progress.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/tasks/questions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/tasks/admin/questions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/rail.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/elements/rail.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/rail.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/elements/rail.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/elements/rail.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/elements/rail.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/elements/rail.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/rating.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/test/fixtures/rating.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/rating.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/modules/rating.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/modules/rating.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/rating.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/rating.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/modules/rating.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/modules/rating.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/modules/rating.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/modules/rating.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/tasks/admin/release.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/reset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/globals/reset.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/reset.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/globals/reset.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/basic/globals/reset.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/globals/reset.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/resetcss/globals/reset.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/globals/reset.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/basic/globals/reset.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/globals/reset.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/resetcss/globals/reset.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/reveal.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/elements/reveal.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/reveal.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/elements/reveal.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/elements/reveal.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/elements/reveal.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/elements/reveal.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/search.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/search.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/modules/search.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/modules/search.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/search.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/search.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/modules/search.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/modules/search.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/test/modules/search.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/modules/search.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/modules/search.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/segment.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/elements/segment.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/segment.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/elements/segment.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/elements/segment.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/github/elements/segment.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/elements/segment.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/elements/segment.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/github/elements/segment.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/semantic.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/semantic.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/semantic.json.example" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/semantic.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/semantic.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/shape.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/test/fixtures/shape.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/shape.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/modules/shape.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/modules/shape.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/shape.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/shape.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/modules/shape.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/modules/shape.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/test/modules/shape.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/modules/shape.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/modules/shape.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/sidebar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/test/fixtures/sidebar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/sidebar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/modules/sidebar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/modules/sidebar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/sidebar.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/sidebar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/modules/sidebar.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/modules/sidebar.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/test/modules/sidebar.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/modules/sidebar.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/modules/sidebar.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/test/helpers/sinon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/site.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/site.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/globals/site.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/globals/site.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/site.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/site.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/globals/site.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/globals/site.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/flat/globals/site.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/globals/site.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/globals/site.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/flat/globals/site.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/material/globals/site.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/state.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/behaviors/state.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/state.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/statistic.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/views/statistic.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/statistic.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/views/statistic.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/views/statistic.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/views/statistic.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/views/statistic.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/step.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/elements/step.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/step.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/elements/step.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/basic/elements/step.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/elements/step.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/github/elements/step.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/elements/step.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/basic/elements/step.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/elements/step.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/github/elements/step.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/sticky.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/sticky.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/modules/sticky.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/modules/sticky.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/sticky.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/sticky.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/modules/sticky.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/modules/sticky.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/modules/sticky.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/modules/sticky.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/tab.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/test/fixtures/tab.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/modules/tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/modules/tab.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/tab.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/tab.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/modules/tab.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/modules/tab.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/test/modules/tab.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/modules/tab.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/modules/tab.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/table.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/collections/table.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/table.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/collections/table.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/basic/collections/table.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/classic/collections/table.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/collections/table.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/collections/table.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/basic/collections/table.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/classic/collections/table.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/collections/table.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/theme.config.example" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/theme.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/transition.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/test/fixtures/transition.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/transition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/modules/transition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/modules/transition.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/transition.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/transition.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/modules/transition.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/modules/transition.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/test/modules/transition.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/modules/transition.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/modules/transition.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/video.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/test/fixtures/video.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/video.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/modules/video.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/modules/video.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/video.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/video.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/modules/video.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/modules/video.overrides" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/test/modules/video.spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/themes/default/modules/video.variables" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/visibility.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/behaviors/visibility.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/visibility.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/visit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/definitions/behaviors/visit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/dist/components/visit.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/widgets/widget_ros_button.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/widgets/widget_ros_cmd.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/widgets/widget_ros_depth.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/widgets/widget_ros_graph.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/widgets/widget_ros_joystick.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/widgets/widget_ros_keypad.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/widgets/widget_ros_led.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/widgets/widget_ros_rgb.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/mysql.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/widgets/widget_robot_control.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/widgets/widget_robot_control_joy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/widgets/widget_img.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/widgets/widget_robot_control.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/widgets/widget_robot_control_joy.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/js/widget_test.js" afterPath="$PROJECT_DIR$/templates/widgets/widget_test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/widgets/widget_log.css" afterPath="$PROJECT_DIR$/static/widgets/widget_ros_log.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/widgets/widget_robot_control.css" afterPath="$PROJECT_DIR$/static/widgets/widget_ros_joystick.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/widgets/widget_robot_control_joy.css" afterPath="$PROJECT_DIR$/static/widgets/widget_ros_keypad.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/widgets/widget_log.html" afterPath="$PROJECT_DIR$/templates/widgets/widget_ros_log.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/config.py" afterPath="$PROJECT_DIR$/classes/config.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index1.html" afterPath="$PROJECT_DIR$/templates/index1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ros_module.py" afterPath="$PROJECT_DIR$/modules/ros_module.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vc_ros_pkg.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,11 +614,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/vc_ros_pkg$localDB.coverage" NAME="localDB Coverage Results" MODIFIED="1419857248015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classes" />
+    <SUITE FILE_PATH="coverage/vc_ros_pkg$web.coverage" NAME="web Coverage Results" MODIFIED="1419862541467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
+  </component>
+  <component name="DatabaseView">
+    <option name="FLATTEN" value="false" />
+    <option name="GROUP_BY_TYPE" value="true" />
+    <option name="SORT_CHILDREN" value="false" />
+    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -42,32 +636,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="web.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3265306" vertical-offset="492" max-vertical-offset="1404">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ros_module.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/ros_module.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1944">
-              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="671" max-vertical-offset="3546">
+              <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+              <folding>
+                <element signature="e#26#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="localDB.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/admin/db/localDB.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="108">
+              <caret line="0" column="529" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="3344" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="widget_test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/widget_test.js">
+      <file leaf-file-name="index1.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/index1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="312" max-vertical-offset="900">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.44353184" vertical-offset="1440" max-vertical-offset="2574">
+              <caret line="92" column="23" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
+              <folding>
+                <marker date="1419865814076" expanded="true" signature="2671:2715" placeholder="..." />
+                <marker date="1419865814076" expanded="true" signature="2798:2842" placeholder="..." />
+                <marker date="1419865814076" expanded="true" signature="2920:2964" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,8 +685,29 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/index1.html" />
         <option value="$PROJECT_DIR$/static/js/widget_test.js" />
+        <option value="$PROJECT_DIR$/templates/widgets/widget_test.js" />
+        <option value="$PROJECT_DIR$/static/widgets/widget_robot_control_joy.js" />
+        <option value="$PROJECT_DIR$/static/widgets/widget_robot_control.js" />
+        <option value="$PROJECT_DIR$/templates/widgets/widget_robot_control.html" />
+        <option value="$PROJECT_DIR$/templates/widgets/widget_robot_control_joy.html" />
+        <option value="$PROJECT_DIR$/templates/widgets/widget_img.html" />
+        <option value="$PROJECT_DIR$/templates/widgets/widget_log.html" />
+        <option value="$PROJECT_DIR$/templates/widgets/widget_ros_button.html" />
+        <option value="$PROJECT_DIR$/templates/widgets/widget_ros_cmd.html" />
+        <option value="$PROJECT_DIR$/templates/widgets/widget_ros_graph.html" />
+        <option value="$PROJECT_DIR$/templates/widgets/widget_ros_depth.html" />
+        <option value="$PROJECT_DIR$/templates/widgets/widget_ros_led.html" />
+        <option value="$PROJECT_DIR$/templates/widgets/widget_ros_rgb.html" />
+        <option value="$PROJECT_DIR$/templates/widgets/widget_ros_joystick.html" />
+        <option value="$PROJECT_DIR$/templates/widgets/widget_ros_keypad.html" />
+        <option value="$PROJECT_DIR$/templates/widgets/widget_ros_log.html" />
+        <option value="$PROJECT_DIR$/classes/config.py" />
+        <option value="$PROJECT_DIR$/classes/localDB.py" />
+        <option value="$PROJECT_DIR$/static/admin/db/localDB.json" />
+        <option value="$PROJECT_DIR$/modules/ros_module.py" />
+        <option value="$PROJECT_DIR$/static/misc/jquery/jquery-2.1.3.min.js" />
+        <option value="$PROJECT_DIR$/templates/index1.html" />
       </list>
     </option>
   </component>
@@ -94,9 +715,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
     <option name="y" value="24" />
-    <option name="width" value="1366" />
-    <option name="height" value="720" />
+    <option name="width" value="1922" />
+    <option name="height" value="1153" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -166,24 +788,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="widgets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vc_ros_pkg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vc_ros_pkg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -205,22 +809,8 @@
               <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vc_ros_pkg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vc_ros_pkg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="misc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -238,7 +828,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="misc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vc_ros_pkg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vc_ros_pkg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="misc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Semantic-UI-1.4.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vc_ros_pkg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vc_ros_pkg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -256,19 +886,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vc_ros_pkg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vc_ros_pkg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.lastSelected" value="http.proxy" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -276,12 +921,16 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/misc/jquery" />
+      <recent name="$PROJECT_DIR$/static/misc" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/widgets" />
       <recent name="$PROJECT_DIR$/static/widgets" />
       <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$/static/js" />
       <recent name="$PROJECT_DIR$/static/css" />
-      <recent name="$PROJECT_DIR$/static/misc" />
     </key>
   </component>
   <component name="RunManager" selected="Python.web">
@@ -301,8 +950,40 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="index1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vc_ros_pkg/templates/index1.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="widget_img.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vc_ros_pkg/templates/widgets/widget_img.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="localDB" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="vc_ros_pkg" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classes/localDB.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -451,6 +1132,11 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
@@ -487,12 +1173,18 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.web" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index1.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.widget_img.html" />
+      <item index="3" class="java.lang.String" itemvalue="Python.localDB" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Python.web" />
+        <item index="1" class="java.lang.String" itemvalue="Python.localDB" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.widget_img.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index1.html" />
       </list>
     </recent_temporary>
   </component>
@@ -509,27 +1201,49 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1366" height="720" extended-state="0" />
+    <frame x="-1" y="24" width="1922" height="1153" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31085044" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15695792" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45817122" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33777356" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17607003" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23159018" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976654" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33754864" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="682" y="505" width="555" height="191" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.273021" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2721218" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879376" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -552,223 +1266,23 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="26" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="548" max-vertical-offset="1404">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/ros_module.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1944">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/widget_test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/widgets/widget_img.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="216">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="1602">
-          <caret line="8" column="174" selection-start-line="8" selection-start-column="174" selection-end-line="8" selection-end-column="174" />
-          <folding>
-            <marker date="1419367851100" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1419367851100" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1419367851100" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="1386">
-          <caret line="14" column="60" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web.py">
-      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1404">
           <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/ros_module.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="2034">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/widget_test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="900">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/widgets/widget_img.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="216">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="1602">
-          <caret line="8" column="174" selection-start-line="8" selection-start-column="174" selection-end-line="8" selection-end-column="174" />
-          <folding>
-            <marker date="1419367851100" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1419367851100" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1419367851100" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="1386">
-          <caret line="14" column="60" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1404">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/ros_module.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="2034">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/widget_test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="900">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/widgets/widget_img.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="216">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="1602">
-          <caret line="8" column="174" selection-start-line="8" selection-start-column="174" selection-end-line="8" selection-end-column="174" />
-          <folding>
-            <marker date="1419367851100" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1419367851100" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1419367851100" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="1386">
-          <caret line="14" column="60" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1404">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/ros_module.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="2034">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/widget_test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="900">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/widgets/widget_img.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="216">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="1602">
-          <caret line="8" column="174" selection-start-line="8" selection-start-column="174" selection-end-line="8" selection-end-column="174" />
-          <folding>
-            <marker date="1419367851100" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1419367851100" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1419367851100" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="1386">
-          <caret line="14" column="60" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1404">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -776,23 +1290,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="265" max-vertical-offset="2034">
           <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding />
+          <folding>
+            <element signature="e#26#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/widget_test.js">
+    <entry file="file://$PROJECT_DIR$/templates/widgets/widget_test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="900">
           <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/widgets/widget_img.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="216">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -800,11 +1307,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="1602">
           <caret line="8" column="174" selection-start-line="8" selection-start-column="174" selection-end-line="8" selection-end-column="174" />
-          <folding>
-            <marker date="1419367851100" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1419367851100" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1419367851100" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -812,7 +1314,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="1386">
           <caret line="14" column="60" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -820,7 +1321,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1404">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -828,7 +1328,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="1224">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#26#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -867,84 +1369,312 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/decorators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1206">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/widgets/widget_robot_control_joy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1851852" vertical-offset="148" max-vertical-offset="576">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/vc_ros.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2880">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2844">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/widgets/widget_ros_keypad.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1458">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../venv1/local/lib/python2.7/site-packages/flask/wrappers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5675676" vertical-offset="2664" max-vertical-offset="3330">
+          <caret line="174" column="6" selection-start-line="174" selection-start-column="6" selection-end-line="174" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/widgets/widget_ros_button.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="270">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/widgets/widget_ros_cmd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="601">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/widgets/widget_ros_graph.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="601">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/widgets/widget_ros_depth.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28222996" vertical-offset="0" max-vertical-offset="574">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/misc/gridster/ducksboard-gridster.js-3140374/dist/jquery.gridster.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.713202" vertical-offset="1419" max-vertical-offset="71838">
+          <caret line="290" column="49" selection-start-line="290" selection-start-column="49" selection-end-line="290" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/widgets/widget_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7585034" vertical-offset="382" max-vertical-offset="1134">
+          <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/widgets/widget_ros_rgb.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="270">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/widgets/widget_ros_led.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="270">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/widgets/widget_ros_log.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1656">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/widgets/widget_ros_keypad.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.111111" vertical-offset="834" max-vertical-offset="2556">
+          <caret line="63" column="32" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/widgets/widget_ros_joystick.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.111111" vertical-offset="339" max-vertical-offset="2142">
+          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/widgets/widget_ros_log.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40875912" vertical-offset="514" max-vertical-offset="1656">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../venv1/lib/python2.7/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="17048" max-vertical-offset="32814">
+          <caret line="983" column="0" selection-start-line="983" selection-start-column="0" selection-end-line="983" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="39133" max-vertical-offset="39708">
+          <caret line="2198" column="0" selection-start-line="2198" selection-start-column="0" selection-end-line="2198" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../venv1/local/lib/python2.7/site-packages/flask/blueprints.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2504" max-vertical-offset="7290">
+          <caret line="152" column="0" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../venv1/local/lib/python2.7/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17048" max-vertical-offset="32814">
+          <caret line="983" column="0" selection-start-line="983" selection-start-column="0" selection-end-line="983" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/crossdomainpolicyserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/crypto.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1098">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/decorators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="563" max-vertical-offset="1152">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/thread_pool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="23" max-vertical-offset="774">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#23#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/json/decoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7774343" vertical-offset="6319" max-vertical-offset="6966">
+          <caret line="383" column="0" selection-start-line="383" selection-start-column="0" selection-end-line="383" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3169" max-vertical-offset="6408">
+          <caret line="189" column="0" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../venv1/local/lib/python2.7/site-packages/werkzeug/serving.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33206832" vertical-offset="7061" max-vertical-offset="13464">
+          <caret line="409" column="0" selection-start-line="409" selection-start-column="0" selection-end-line="409" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/socket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33206832" vertical-offset="3785" max-vertical-offset="10368">
+          <caret line="223" column="0" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/localDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6736243" vertical-offset="77" max-vertical-offset="828">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.57664233" vertical-offset="568" max-vertical-offset="1386">
+        <state vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1386">
           <caret line="14" column="60" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/widgets/widget_robot_control.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1458">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/widgets/widget_img.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09854015" vertical-offset="0" max-vertical-offset="548">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60583943" vertical-offset="496" max-vertical-offset="1584">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding>
-            <marker date="1419367851100" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1419367851100" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1419367851100" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/widget_test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="312" max-vertical-offset="900">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/ros_module.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="265" max-vertical-offset="2034">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3265306" vertical-offset="492" max-vertical-offset="1404">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state vertical-scroll-proportion="1.8102467" vertical-offset="324" max-vertical-offset="1404">
+          <caret line="71" column="38" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/misc/Semantic-UI-1.4.1/src/_site/views/ad.overrides">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/misc/jquery/jquery-2.1.3.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14007781" vertical-offset="0" max-vertical-offset="514">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/admin/db/localDB.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="108">
+          <caret line="0" column="529" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="3344" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/ros_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="671" max-vertical-offset="3546">
+          <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+          <folding>
+            <element signature="e#26#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44353184" vertical-offset="1440" max-vertical-offset="2574">
+          <caret line="92" column="23" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
+          <folding>
+            <marker date="1419865814076" expanded="true" signature="2671:2715" placeholder="..." />
+            <marker date="1419865814076" expanded="true" signature="2798:2842" placeholder="..." />
+            <marker date="1419865814076" expanded="true" signature="2920:2964" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+   <!--  JQUERY -->
+    <script type="text/javascript"  src="{{url_for('static', filename='misc/jquery/jquery-1.11.1.min.js') }}"></script>
+
+    <!--  ROS -->
+    <script type="text/javascript" src="{{url_for('static', filename='misc/ros/eventemitter2.min.js') }}"></script>
+    <script type="text/javascript" src="{{url_for('static', filename='misc/ros/roslib.min.js') }}"></script>
+
+    <!-- OUT -->
+    <script type="text/javascript" src="{{url_for('static', filename='misc/List.js') }}"></script>
+
+    <!-- MY -->
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='widgets/widget_ros_log.css') }}">
+
+  </head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
+  <body>
+   <div id="users">
+    <input class="search" placeholder="Search" />
+
+    <ul class="list">
+
+    </ul>
+  </div>
+
+
+  <script type="text/javascript">
+    /////////////////////////////
+    //init
+    /////////////////////////////
+    var ros;
+    var listener;
+
+    var options = {
+      valueNames: [ 'time', 'name', 'born' ],
+      item: '<li><p class="time"><p class="name"></p><p class="born"></p></li>'
+    };
+    var values = [];
+
+    var userList = new List('users', options, values);
+
+
+    $(document).ready(function() {
+      try {
+        ros = new ROSLIB.Ros({
+          url : 'ws://' + {{ data.ros_host_ip }} + ':' + '{{ data.ros_host_port }}'
+        });
+        ros.on('connection', function() {
+          console.log('Connected to websocket server.');
+        });
+        ros.on('error', function(error) {
+          console.log('Error connecting to websocket server: ', error);
+        });
+        ros.on('close', function() {
+          console.log('Connection to websocket server closed.');
+        });
+      }
+      catch(err) {
+        console.log('Error connecting to ROS: ', err);
+      }
+      listener = new ROSLIB.Topic({
+        ros : ros,
+        name : '{{ data.topic }}',
+        messageType : '{{ data.messagetype }}'
+      });
+      // Then we add a callback to be called every time a message is published on this topic.
+      listener.subscribe(function(message) {
+        //console.log('Received message on ' + listener.name + ': ' + message.angular + " , " + message.linear );
+        var myDate = new Date();
+        userList.add({
+          name: listener.name,
+          born: "("+message.angular.x+","+message.angular.y+","+message.angular.z+")" + " , ("+message.linear.x+","+message.linear.y+","+message.linear.z+")",
+          time: myDate.getFullYear() + '-' + (myDate.getMonth()+1) + '-' + myDate.getDate() + ' ' + myDate.getHours() + ':' + myDate.getMinutes() + ':' + myDate.getSeconds()
+        });
+        // If desired, we can unsubscribe from the topic as well.
+        //listener.unsubscribe();
+      });
+    });
+
+  </script>
+
+  </body>
+</html>
