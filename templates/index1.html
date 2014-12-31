@@ -58,12 +58,10 @@
 
         $.get( "ros/get_saved_names", function( data ) {
             user_list = eval(data)
-            $( ".selected_user" ).text( user_list[0] );
+            $( ".selected_user" ).text( user_list[0] ); //TODO - call onclick deserialize.
 
             for (var i = 0; i < user_list.length; i++) {
-
                 $( ".user_dropdown").append('<div class="item">' + user_list[i] + '</div>')
-
             }
         });
 

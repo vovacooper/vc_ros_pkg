@@ -2,8 +2,6 @@ __author__ = 'vovacooper'
 import os
 from flask import Blueprint, request, render_template, send_file, Response, redirect, json
 
-from providers.geo_ip_provider import GeoIpProvider
-
 from classes.logger import logger
 
 from classes.localDB import localDB
@@ -171,11 +169,11 @@ def vc_rog_widget_joystick():
                 }
 
         #init data provider
-        data_provider = GeoIpProvider(request_data)
+        #data_provider = GeoIpProvider(request_data)
         #get data from provider
-        response_data = data_provider.get_data()
+        #response_data = data_provider.get_data()
         #make json
-        response_json = json.dumps(response_data)
+        response_json = json.dumps({"a":"a"})
 
         if request_data["callback"]:
             response_json = "{0}({1})".format(request_data["callback"], json.dumps(response_data))
