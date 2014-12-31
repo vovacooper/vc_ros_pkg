@@ -94,7 +94,7 @@
           if( Math.abs(dx) < 2 && Math.abs(dy) < 2 ){
           return;
         }
-        var twist = generateTwistMsg(dy/100 , dx/100);
+        var twist = generateTwistMsg(dy/-100 , dx/-50);
         tpkVel.publish(twist);
         tpkVelSim.publish(twist);
         //var outputEl = document.getElementById('result');
