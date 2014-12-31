@@ -3,7 +3,7 @@ import sys
 import os
 from os.path import basename
 
-LOG_PATH = "/var/log/impo_admin/"
+LOG_PATH = "/var/log/vc_ros_pkg/"
 
 
 if not os.path.exists(LOG_PATH):
