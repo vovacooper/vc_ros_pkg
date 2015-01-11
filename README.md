@@ -22,19 +22,41 @@ apt-get install nginx
 ```
 configure
 ```Bash
-/etc/nginx/sites-available
+/etc/nginx/sites-available/default
 ```
 ```Bash
-server
+erver
 {
     listen       80 default_server;
-    root /home/lab_alglam/catkin_ws/src/vc_ros_pkg/www;
-
     location /
     {
+        uwsgi_pass unix:/var/run/vc_ros_pkg.sock;
+        include uwsgi_params;
     }
-}
+}```
+
+
+```Bash
+/etc/uwsgi/apps-available/uwsgi.ini
 ```
+```Bash
+[uwsgi]
+
+master = true
+socket = /var/run/vc_ros_pkg.sock
+
+chmod-socket = 666
+chown-socket = www-data:www-data
+
+chdir = /var/www/vc_ros_pkg
+virtualenv = /var/www/vc_ros_pkg/venv
+
+module = web
+callable = app
+```
+
+
+
 
 installation
 ===========
