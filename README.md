@@ -104,3 +104,7 @@ sudo chmod 777 /var/log/
 sudo mkdir /var/log/vc_ros_pkg
 sudo chmod 777 vc_ros_pkg
 
+//Video jpeg
+sudo apt-get install ros-groovy-mjpeg-server
+
+
