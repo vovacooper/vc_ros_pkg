@@ -16,6 +16,7 @@ run catkin_make from
 
 nginx configuration:
 -------------------
+
 nginx install:
 ```Bash
 apt-get install nginx
@@ -24,8 +25,9 @@ configure
 ```Bash
 /etc/nginx/sites-available/default
 ```
+add this
 ```Bash
-erver
+server
 {
     listen       80 default_server;
     location /
@@ -33,12 +35,14 @@ erver
         uwsgi_pass unix:/var/run/vc_ros_pkg.sock;
         include uwsgi_params;
     }
-}```
+}
+```
 
-
+modify this file
 ```Bash
 /etc/uwsgi/apps-available/uwsgi.ini
 ```
+Add
 ```Bash
 [uwsgi]
 
@@ -62,7 +66,7 @@ installation
 ===========
 
 //git
-suudo apt-get install git
+sudo apt-get install git
 
 //Get repository
 cd /var/www/
