@@ -66,45 +66,58 @@ installation
 ===========
 
 //git
+```Bash
 sudo apt-get install git
+```
 
 //Get repository
+```Bash
 cd /var/www/
 git clone http://github.com/vovacooper/vc_ros_pkg
-
+```
 
 //Install pip
+```Bash
 sudo apt-get install python-pip
-
+```
 //install virtual env for python/flask/uwsgi
 sudo pip install virtualenv
 
 //create new virtual env
+```Bash
 virtualenv venv
+```
 
 //install req for python-flask
+```Bash
 ./venv/bin/pip install -r requirements.txt
+```
 
 //install 
+```Bash
 sudo apt-get install nginx
 sudo apt-get install uwsgi
+```
 
 //modify ini files for nginx/uwsgi
 
-
-
-//for plugin but fix
+//for plugin fix
+```Bash
 mkdir -p /usr/lib/uwsgi/plugins
-
+```
 //MUST!!!!
+```Bash
 apt-get install uwsgi-plugin-python
-sudo chmod 777 /var/log/
+```
 
-//Logger
+//Logger permitions
+```Bash
 sudo mkdir /var/log/vc_ros_pkg
 sudo chmod 777 vc_ros_pkg
+```
 
 //Video jpeg
+```Bash
 sudo apt-get install ros-groovy-mjpeg-server
-
+```
 
