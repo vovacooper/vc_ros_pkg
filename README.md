@@ -14,6 +14,27 @@ run catkin_make from
 ```
 
 
+
+installation
+===========
+
+Git
+```Bash
+sudo apt-get install git
+```
+
+Get repository
+```Bash
+cd /var/www/
+git clone http://github.com/vovacooper/vc_ros_pkg
+```
+
+Install pip
+```Bash
+sudo apt-get install python-pip
+```
+
+
 nginx configuration:
 -------------------
 
@@ -25,7 +46,7 @@ configure
 ```Bash
 /etc/nginx/sites-available/default
 ```
-add this
+/etc/nginx/sites-available/default
 ```Bash
 server
 {
@@ -38,11 +59,15 @@ server
 }
 ```
 
+UWSGI install:
+```Bash
+apt-get install uwsgi
+```
 modify this file
 ```Bash
 /etc/uwsgi/apps-available/uwsgi.ini
 ```
-Add
+/etc/uwsgi/apps-available/uwsgi.ini
 ```Bash
 [uwsgi]
 
@@ -59,64 +84,37 @@ module = web
 callable = app
 ```
 
-
-
-
-installation
-===========
-
-//git
+Install virtual env for python/flask/uwsgi
 ```Bash
-sudo apt-get install git
-```
-
-//Get repository
-```Bash
-cd /var/www/
-git clone http://github.com/vovacooper/vc_ros_pkg
-```
-
-//Install pip
-```Bash
-sudo apt-get install python-pip
-```
-//install virtual env for python/flask/uwsgi
 sudo pip install virtualenv
+```
 
-//create new virtual env
+Create new virtual env
 ```Bash
 virtualenv venv
 ```
 
-//install req for python-flask
+Install req for python-flask
 ```Bash
 ./venv/bin/pip install -r requirements.txt
 ```
 
-//install 
-```Bash
-sudo apt-get install nginx
-sudo apt-get install uwsgi
-```
-
-//modify ini files for nginx/uwsgi
-
-//for plugin fix
+for plugin fix
 ```Bash
 mkdir -p /usr/lib/uwsgi/plugins
 ```
-//MUST!!!!
+MUST!!!!
 ```Bash
 apt-get install uwsgi-plugin-python
 ```
 
-//Logger permitions
+Logger permitions
 ```Bash
 sudo mkdir /var/log/vc_ros_pkg
 sudo chmod 777 vc_ros_pkg
 ```
 
-//Video jpeg
+Video jpeg
 ```Bash
 sudo apt-get install ros-groovy-mjpeg-server
 ```
