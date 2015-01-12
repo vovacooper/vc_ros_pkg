@@ -1,19 +1,10 @@
 vc_ros_pkg
 ==========
 
-ROS package
-
-
 place the package under 
 ```Bash
-~/catkin_ws/src path
+/var/www/
 ```
-run catkin_make from 
-```Bash
-~/catkin_ws folder
-```
-
-
 
 installation
 ===========
@@ -26,7 +17,7 @@ sudo apt-get install git
 Get repository
 ```Bash
 cd /var/www/
-git clone http://github.com/vovacooper/vc_ros_pkg
+sudo git clone http://github.com/vovacooper/vc_ros_pkg
 ```
 
 Install pip
@@ -40,7 +31,7 @@ nginx configuration:
 
 nginx install:
 ```Bash
-apt-get install nginx
+sudo apt-get install nginx
 ```
 configure
 ```Bash
@@ -63,7 +54,7 @@ UWSGI configuration
 
 UWSGI install:
 ```Bash
-apt-get install uwsgi
+sudo apt-get install uwsgi
 ```
 modify this file
 ```Bash
@@ -106,17 +97,17 @@ Install req for python-flask
 
 for plugin fix
 ```Bash
-mkdir -p /usr/lib/uwsgi/plugins
+sudo mkdir -p /usr/lib/uwsgi/plugins
 ```
 MUST!!!!
 ```Bash
-apt-get install uwsgi-plugin-python
+sudo apt-get install uwsgi-plugin-python
 ```
 
 Logger permitions
 ```Bash
 sudo mkdir /var/log/vc_ros_pkg
-sudo chmod 777 vc_ros_pkg
+sudo chmod 777 /var/log/vc_ros_pkg
 ```
 
 My Test's
