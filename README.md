@@ -26,7 +26,7 @@ sudo apt-get install python-pip
 ```
 
 
-nginx configuration:
+NGINX configuration:
 -------------------
 
 nginx install:
@@ -77,7 +77,7 @@ module = web
 callable = app
 ```
 
-configurations
+General configurations
 -------------------
 
 Install virtual env for python/flask/uwsgi
