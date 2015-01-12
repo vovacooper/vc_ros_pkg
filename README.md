@@ -58,6 +58,8 @@ server
     }
 }
 ```
+UWSGI configuration
+-------------------
 
 UWSGI install:
 ```Bash
@@ -83,6 +85,9 @@ virtualenv = /var/www/vc_ros_pkg/venv
 module = web
 callable = app
 ```
+
+configurations
+-------------------
 
 Install virtual env for python/flask/uwsgi
 ```Bash
@@ -114,6 +119,8 @@ sudo mkdir /var/log/vc_ros_pkg
 sudo chmod 777 vc_ros_pkg
 ```
 
+My Test's
+-------------------
 Video jpeg
 ```Bash
 sudo apt-get install ros-groovy-mjpeg-server
